@@ -1,0 +1,9 @@
+{
+  // Usa Prettier como formateador para archivos .astro
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Formatea al guardar
+  "editor.formatOnSave": true
+}
