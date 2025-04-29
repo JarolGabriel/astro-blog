@@ -78,6 +78,32 @@ npm run dev
 
 Luego entra a http://localhost:4321 para verlo en acción. 🎉
 
+## Nuevas Características 🚀
+
+Este proyecto ha sido actualizado recientemente con las siguientes mejoras:
+
+- **RSS Feed**  
+  Se ha implementado un RSS Feed utilizando las herramientas de Astro. Gracias a
+  esto, los usuarios pueden suscribirse al blog y recibir notificaciones
+  automáticas cuando se publique nuevo contenido.
+
+- **Markdown-it**  
+  Se integró la librería
+  [`markdown-it`](https://github.com/markdown-it/markdown-it) para procesar
+  contenido en formato Markdown de manera más flexible y personalizada,
+  mejorando la forma en que se renderizan los artículos y publicaciones.
+
+- **Sanitize-html**  
+  Se añadió el paquete
+  [`sanitize-html`](https://github.com/apostrophecms/sanitize-html) para limpiar
+  y asegurar el contenido dinámico, protegiendo el sitio de posibles
+  vulnerabilidades relacionadas con HTML malicioso.
+
+---
+
+> Estas mejoras tienen como objetivo ofrecer una mejor experiencia de lectura,
+> mayor seguridad y facilitar la distribución de contenido.
+
 🛤️ Futuras mejoras Conectar el blog a Astro DB para manejar posts y usuarios
 dinámicamente.
 
